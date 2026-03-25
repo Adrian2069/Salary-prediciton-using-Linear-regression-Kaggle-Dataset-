@@ -13,7 +13,7 @@ y = Salary ['Salary']
 
 #training and testing sets
 X_train, X_test, y_train, y_test = train_test_split (X , y, 
-  test_size = 0.3,  #uses 90% of the data for testing
+  test_size = 0.4,  #uses 40% of the data for testing
   random_state = 43) #Makes results reproducible 
 
 #creates the Linear Regression model 
